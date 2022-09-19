@@ -11,8 +11,8 @@ const longestPalindrome = function(s) {
             left--;
             right++;
         }
-        if (right-left > r-l) [r,l] = [right,left]
+        if (right-left > r-l) [r,l] = [right,left];
     }
     
-    return s.substring(l,r+1);
+    return s.substring(l, r+1);
 };
